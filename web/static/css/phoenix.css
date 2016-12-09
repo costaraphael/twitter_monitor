@@ -80,3 +80,18 @@ form.link, form.button {
     border-bottom: 0;
   }
 }
+
+.nav>li a:focus, .nav>li a:hover {
+    text-decoration: none;
+    background-color: #eee;
+}
+
+.nav-pills>li a {
+    border-radius: 4px;
+}
+
+.nav>li a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+}
